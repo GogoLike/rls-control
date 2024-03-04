@@ -1,0 +1,23 @@
+{
+    "sdr_ip": "ip:192.168.70.60",
+    "sample_rate_MHz": 60,
+    "center_freq_MHz": 5100,
+    "num_samples": 10000,
+    "rx_gain_dB": 0,
+    "tx_gain_dB": -80,
+    "signals":
+    {
+        "FKM_1":
+        {
+            "name": "Одиночный ФКМ",
+            "seq_type": "М-последовательность",
+            "txt_path": "./fkm_m_1.txt"
+        },
+        "LCHM_1":
+        {
+            "name": "Одиночный ЛЧМ",
+            "seq_type": "Пилообразный возрастающий",
+            "txt_path": "./lchm_up_none_1.txt"
+        }
+    }
+}
